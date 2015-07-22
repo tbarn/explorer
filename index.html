@@ -8,6 +8,7 @@
   <link rel="stylesheet" type='text/css' href="assets/css/keen-static.css" />
   <link rel="stylesheet" type='text/css' href="assets/css/keen-dashboards.css" />
   <link rel="stylesheet" type="text/css" href="assets/css/prism.css" />
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 </head>
 <body>
   <div class="masthead hero">
@@ -60,23 +61,24 @@
     <div class="features">
       <div class="container">
         <div class="row" style="position: relative;">
-          <p class="lead description-item"> What questions do you want to ask? </p>
-          <br>
+          <h2> What questions do you want to ask? </h2>
+          <br />
+          <br />
           <div class="col-xs-12 col-md-4 text-center description-item">
-            <img src="http://img3.wikia.nocookie.net/__cb20090502214932/uncyclopedia/images/5/5c/Nuclear_Explosion_Seal.PNG" style="max-width: 100%;" />
-            <p> Unlimited flexibility </p>
+            <i class="fa fa-cloud-upload fa-5x"></i>
+            <p class="text-header"> Unlimited Flexibility </p>
             <p> Explore any event, from any source, with unlimited properties, so you can answer the questions that matter to you.
             </p>
           </div>
           <div class="col-xs-12 col-md-4 text-center description-item">
-            <img src="http://img3.wikia.nocookie.net/__cb20090502214932/uncyclopedia/images/5/5c/Nuclear_Explosion_Seal.PNG" style="max-width: 100%;" />
-            <p> Ask any question
+            <i class="fa fa-question fa-5x"></i>
+            <p class="text-header"> Get Answers</p>
             <p> Answer the questions that matter to you with an intuitive interface with built in analysis functions.
             </p>
           </div>
           <div class="col-xs-12 col-md-4 text-center description-item">
-            <img src="http://img3.wikia.nocookie.net/__cb20090502214932/uncyclopedia/images/5/5c/Nuclear_Explosion_Seal.PNG" style="max-width: 100%;" />
-            <p> Explore anywhere </p>
+            <i class="fa fa-line-chart fa-5x"></i>
+            <p class="text-header"> Explore Anywhere </p>
             <p> Query your data anywhere - embed the explorer right into your product or internal workflow.
             </p>
           </div>
@@ -86,7 +88,7 @@
     <div class="ctas">
       <div class="container">
         <div class="row" style="position: relative;">
-          <a class="btn cta-secondary-btn" href="https://github.com/keen/explorer">Explorer Github</a>
+          <a class="btn cta-secondary-btn" href="https://github.com/keen/explorer">Code on Github</a>
           <a class="btn cta-secondary-btn" href="explorer">Try It Now </a>
           <a class="btn cta-secondary-btn" href="mailto:team@keen.io?subject=I%20want%20to%20demo%20Explorer!">Schedule a Demo</a>
         </div>
@@ -171,7 +173,7 @@
 
     CommonWeb.addGlobalProperties(CommonWeb.Keen.globalProperties);
     CommonWeb.addGlobalProperties({
-      project_name: "Keen Arduino SDK gh-page"
+      project_name: "Keen Explorer GH Page"
     });
     CommonWeb.Callback = CommonWeb.Keen.Callback;
 
