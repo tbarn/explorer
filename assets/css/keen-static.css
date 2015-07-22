@@ -26,11 +26,6 @@ h3 {
   line-height: 29.39px;
 }
 
-.btn:not(.btn-primary) {
-  background: transparent;
-  border: 1px solid white;
-}
-
 .keen-logo {
   height: 38px;
   margin: 0 15px 0 0;
@@ -166,26 +161,14 @@ a.cta-btn:hover {
   margin-right: 10px;
 }
 
-.footer {
-  background-color: #00bbde;
-}
-
-.footer .container {
-  border-top: 1px solid #ffffff;
-}
 
 .love {
-  color: #fff;
   padding: 15px 0;
   text-align: center;
 }
 
 .love p {
   margin-bottom: 0;
-}
-
-.love a {
-  color: #3d4a57;
 }
 
 pre {
@@ -248,25 +231,28 @@ pre code {
   max-width: 100%;
 }
 
-.ctas {
+.features {
   background-color: #00bbde;
   margin-top: 12px;
   padding: 48px 0;
   text-align: center;
 }
 
+.ctas {
+  background-color: #3d4a57;
+  padding: 48px 0;
+  text-align: center;
+}
+
 .cta-secondary-btn {
   background: #00bbde;
-  border: 2px solid #00bbde;
   color: #fff;
   display: inline-block;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  margin: 24px 12px 0 12px;
-  padding: 6px 18px;
-  opacity: .75;
-  width: 144px;
+  margin: 24px 12px;
+  padding: 12px 18px;
 }
 
 .cta-secondary-btn:hover {
