@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .DS_Store
 .idea/
 test/unit/build/browserified_tests.js
@@ -5,3 +6,6 @@ node_modules
 *.log
 .awspublish-keen-js
 demo/index.html
+=======
+_site
+>>>>>>> 68725f2dc4aef903ec5c39d59dbce132933f1646

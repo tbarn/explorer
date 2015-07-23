@@ -1,0 +1,328 @@
+a, a:focus, a:hover, a:active {
+  color: #00afd7;
+}
+
+h1, h2, h3 {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 12px 0;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 100;
+  letter-spacing: .02em;
+  line-height: 48px;
+  margin: 12px 0;
+}
+h2 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 2.4em;
+}
+h3 {
+  color: rgb(84, 102, 120);
+  font-size: 21px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  line-height: 29.39px;
+}
+
+.keen-logo {
+  height: 38px;
+  margin: 0 15px 0 0;
+  width: 150px;
+}
+
+.navbar-toggle {
+  background-color: rgba(255,255,255,.25);
+}
+.navbar-toggle .icon-bar {
+  background: #fff;
+}
+
+
+.navbar-nav {
+  margin: 5px 0 0;
+}
+.navbar-nav > li > a {
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 0.03em;
+  padding-top: 19px;
+  text-shadow: 0 0 2px rgba(0,0,0,.1);
+}
+.navbar-nav > li > a:focus,
+.navbar-nav > li > a:hover {
+  background: transparent none;
+}
+
+.navbar-nav > li > a.navbar-btn {
+  background-color: rgba(255,255,255,.25);
+  border: medium none;
+  padding: 10px 15px;
+}
+.navbar-nav > li > a.navbar-btn:focus,
+.navbar-nav > li > a.navbar-btn:hover {
+  background-color: rgba(255,255,255,.35);
+}
+.navbar-collapse {
+  box-shadow: none;
+}
+
+.masthead-chart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.masthead {
+  background-position: 0 -290px;
+  background-repeat: repeat-x;
+  background-color: #00bbde;
+  color: #fff;
+  margin: 0 0 24px;
+  padding: 20px 0;
+  position: relative;
+}
+.masthead h1 {
+  margin: 0;
+  font-weight: 600;
+}
+.masthead small,
+.masthead a,
+.masthead a:focus,
+.masthead a:hover,
+.masthead a:active {
+  color: #fff;
+}
+.masthead p {
+  color: #00bbde;
+  font-weight: 300;
+  letter-spacing: .05em;
+}
+
+.hero {
+  background-position: 50% 100%;
+  text-align: center;
+}
+
+.hero .container {
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 20px 0 6px;
+}
+.hero .lead {
+  margin-bottom: 32px;
+  color: #FFFFFF;
+}
+
+.hero a.cta-btn {
+  width: 320px;
+  font-size: 24px;
+}
+
+a.cta-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  margin: 0 auto 12px;
+  padding: 12px 12px 10px 12px;
+}
+
+a.cta-btn:focus,
+a.cta-btn:hover {
+  border-color: transparent;
+  background-color: #fff;
+  color: #00afd7;
+}
+
+.description-item p {
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+
+.sample-item {
+  margin-bottom: 24px;
+}
+
+.signup {
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -6px;
+  margin-right: 10px;
+}
+
+
+.love {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.love p {
+  margin-bottom: 0;
+}
+
+pre {
+  overflow: auto;
+  word-wrap: normal;
+  white-space: pre;
+}
+
+pre code {
+  white-space: pre;
+}
+
+.example-message {
+}
+
+.example-message .glyphicon {
+  display: block;
+  color: #00bbde;
+  font-size: 84px;
+  padding: 42px 0;
+  text-align: center;
+}
+
+.keen-metrics {
+  background-color: #49c5b1;
+  width: auto;
+  border-radius: 4px;
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.keen-metric-value {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.keen-metric-title {
+  display: block;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.slack-message {
+  max-width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.demo-gif {
+  width: 1277px;
+  max-width: 100%;
+}
+
+.features {
+  background-color: #00bbde;
+  margin-top: 12px;
+  padding: 48px 0;
+  text-align: center;
+}
+
+div.content p {
+  font-size: 1.2em;
+}
+
+div.content p.text-header {
+  font-size: 1.5em;
+}
+
+i {
+  color: #fff;
+}
+
+.ctas {
+  background-color: #3d4a57;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.cta-secondary-btn {
+  background: #00bbde;
+  color: #fff;
+  display: inline-block;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 24px 12px;
+  padding: 12px 18px;
+}
+
+.cta-secondary-btn:hover {
+  background: #0099b6;
+  border-color: #0099b6;
+  color: #fff;
+}
+
+.footer ul,
+.footer ol {
+  list-style: none;
+  padding: 0 0 0 40px;
+  margin: 1em 0;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.footer lh {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #2a333c;
+}
+
+.footer ul li {
+  font-size: 14px;
+}
+
+.footer ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #8799ab;
+}
+
+@media(max-width: 769px) {
+  .example-message {
+    position: relative;
+    transform: none;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }  
+
+  .navbar-collapse {
+    background: #3e313c;
+    <!-- Hacky box shadow to overcome bootstraps horizontal padding -->
+    box-shadow: #3e313c 0px 0px 0px 16px;
+  }
+}
+
+@media(max-width: 410px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .ctas {
+    padding: 24px 0;
+  }
+
+  .cta-secondary-btn {
+    width: 100%;
+    margin: 12px 16px;
+    box-sizing: border-box;
+  }
+}
